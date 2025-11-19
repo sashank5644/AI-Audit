@@ -38,7 +38,7 @@ export const EvidenceGraph = () => {
           <p className="text-xs uppercase tracking-[0.3em] text-mute">Evidence graph</p>
           <h4 className="text-lg font-semibold text-ink">Permission-aware knowledge graph</h4>
         </div>
-        <span className="text-xs text-mute">~150 nodes · WebGL · 60fps</span>
+        <span className="text-xs text-mute">~150+ nodes · WebGL · 60fps</span>
       </div>
       <Suspense
         fallback={
