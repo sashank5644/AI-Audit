@@ -55,6 +55,15 @@ export const Header = () => {
         </nav>
         <div className="flex items-center gap-3">
           <a
+            className="focus-ring inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-2 text-sm font-semibold text-ink transition hover:border-brand hover:text-brand"
+            href="https://ragsites-all.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Website
+            <ArrowUpRight className="h-4 w-4" />
+          </a>
+          <a
             className="focus-ring inline-flex items-center gap-2 rounded-full bg-brand/90 px-5 py-2 text-sm font-semibold text-bg shadow-soft transition hover:-translate-y-0.5 hover:bg-brand2/80"
             href={ctaHref}
             target="_blank"

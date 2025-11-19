@@ -53,17 +53,20 @@ export const Hero = () => {
             </span>
           </div>
         </div>
-        <div className="panel w-full max-w-sm space-y-4 border-dashed border-brand/30">
-          <p className="text-sm uppercase tracking-[0.2em] text-brand2">1-Minute Proof Strip</p>
-          <ul className="space-y-3 text-sm text-ink">
-            <li>• Ingest: files, email, CRM, and chat</li>
-            <li>• Understand: embeddings + knowledge graph</li>
-            <li>• Retrieve: permission-aware evidence</li>
-            <li>• Answer: citations + audit trail</li>
-          </ul>
-          <p className="text-xs text-mute">
-            Tap the demo to see every phase animate with deterministic timers—perfect for executive walk-throughs.
-          </p>
+        <div className="w-full max-w-md space-y-3">
+          <p className="text-xs uppercase tracking-[0.3em] text-mute">Watch how it works in 40 seconds</p>
+          <div className="overflow-hidden rounded-[1.5rem] border border-white/10 bg-black/30 shadow-soft">
+            <video
+              className="h-full w-full"
+              controls
+              preload="metadata"
+              poster="/demo-thumb.png"
+              playsInline
+            >
+              <source src="/demo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
     </section>
